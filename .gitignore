@@ -1,0 +1,22 @@
+# --- Secrets ---
+.env
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# --- ChromaDB local persistence (regenerated when you re-upload PDFs) ---
+database/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS/editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
