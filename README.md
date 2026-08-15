@@ -92,7 +92,6 @@ It started as a single-file, single-PDF prototype (v1) and has been rebuilt incr
 AI-PDF-ChatBot-v2/
 ├── app.py                 # Streamlit UI — upload, processing, sidebar, chat
 ├── requirements.txt
-├── .env.example
 ├── .gitignore
 ├── database/               # ChromaDB persistent storage (gitignored)
 ├── assets/
@@ -147,6 +146,7 @@ Retrieval tuning (chunk-size experiments, re-ranking) · prompt refinement for e
 ## 👨‍💻 Author
 
 **Vishist Chhetri**
+
 Computer Science Engineering Student
 
 ---
